@@ -2,8 +2,9 @@
 Inspired by [Awesome Pruning](https://github.com/he-y/Awesome-Pruning#type-of-pruning).
 Papers I have read and try to follow
 
-[Filter Pruning via Geometric Median for Deep Convolutional Neural Networks Acceleration](https://arxiv.org/abs/1811.00250) | CVPR 2019 | [github](https://github.com/he-y/filter-pruning-geometric-median)
-
+* [Filter Pruning via Geometric Median for Deep Convolutional Neural Networks Acceleration](https://arxiv.org/abs/1811.00250) | CVPR 2019 | [github](https://github.com/he-y/filter-pruning-geometric-median)
+  
+  Tow requirments for norm-based criterion: 1. large norm deviation. 2. small minimum norm.
 
 # Related Repo
 [Awesome Pruning](https://github.com/he-y/Awesome-Pruning#type-of-pruning)

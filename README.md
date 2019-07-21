@@ -7,7 +7,8 @@ Papers I have read and try to follow
   Very good introduction and related work which divide the pruning into weight pruning and filter pruning. For the filter pruning, it's also separated to data dependent, eg., norm based regularization, and data independent, eg., directly pruning the filter by smaller-norm-less-important asumption.
   
   Tow requirments for norm-based criterion: 1. large norm deviation. 2. small minimum norm.
-* [PRUNING FILTERS FOR EFFICIENT CONVNETS](https://arxiv.org/pdf/1608.08710.pdf) | ICLR 2017 |
+* Data Independent filter pruning
+  * [PRUNING FILTERS FOR EFFICIENT CONVNETS](https://arxiv.org/pdf/1608.08710.pdf) | ICLR 2017 |
 # Related Repo
 [Awesome Pruning](https://github.com/he-y/Awesome-Pruning#type-of-pruning)
 

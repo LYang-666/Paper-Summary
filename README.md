@@ -9,6 +9,10 @@ Papers I have read and try to follow
   Tow requirments for norm-based criterion: 1. large norm deviation. 2. small minimum norm.
 * Data Independent filter pruning
   * [PRUNING FILTERS FOR EFFICIENT CONVNETS](https://arxiv.org/pdf/1608.08710.pdf) | ICLR 2017 |
+
+* Data dependent filter pruning
+  * [Learning Efficient Convolutional Networks through Network Slimming](https://arxiv.org/pdf/1708.06519.pdf) | ICCV 2017 | [github](https://github.com/liuzhuang13/slimming)
+  
 # Related Repo
 [Awesome Pruning](https://github.com/he-y/Awesome-Pruning#type-of-pruning)
 

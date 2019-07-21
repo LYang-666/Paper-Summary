@@ -4,7 +4,7 @@ Papers I have read and try to follow
 
 * [Filter Pruning via Geometric Median for Deep Convolutional Neural Networks Acceleration](https://arxiv.org/abs/1811.00250) | CVPR 2019 | [github](https://github.com/he-y/filter-pruning-geometric-median)
   
-  Very good introduction and related work which divide the pruning into weight pruning and filter pruning. For the filter pruning, it's also separated to data dependent and data independent.
+  Very good introduction and related work which divide the pruning into weight pruning and filter pruning. For the filter pruning, it's also separated to data dependent, eg., norm based regularization, and data independent, eg., directly pruning the filter by smaller-norm-less-important asumption.
   
   Tow requirments for norm-based criterion: 1. large norm deviation. 2. small minimum norm.
 * [PRUNING FILTERS FOR EFFICIENT CONVNETS](https://arxiv.org/pdf/1608.08710.pdf) | ICLR 2017 |

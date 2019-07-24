@@ -9,7 +9,14 @@ Papers I have read and try to follow up
   Tow requirments for norm-based criterion: 1. large norm deviation. 2. small minimum norm.
 * Data Independent filter pruning
   * [PRUNING FILTERS FOR EFFICIENT CONVNETS](https://arxiv.org/pdf/1608.08710.pdf) | ICLR 2017 |
-
+  
+  Good analysis on sensitive of resnet layers to be pruned. 
+  1. "(layers 20, 38 and 54 for ResNet-56, layer 36, 38 and 74 for      ResNet-110) lie at the residual blocks close to the layers where the number of feature maps changes, e.g., the first and the last residual blocks for each stage. We believe this happens because the precise residual errors are necessary for the newly added empty feature maps."
+    Solution: The retraining performance can be improved by skipping these sensitive layers.
+  
+  2. " We find that deeper layers are more sensitive to pruning than layers in the earlier stages of the network."
+    Solution: "we use a different pruning rate for each stage."
+  
 * Data dependent filter pruning
   * [Learning Efficient Convolutional Networks through Network Slimming](https://arxiv.org/pdf/1708.06519.pdf) | ICCV 2017 | [github](https://github.com/liuzhuang13/slimming)
   

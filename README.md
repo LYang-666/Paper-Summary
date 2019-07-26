@@ -20,6 +20,8 @@ Papers I have read and try to follow up
 * Data dependent filter pruning
   * [Learning Efficient Convolutional Networks through Network Slimming](https://arxiv.org/pdf/1708.06519.pdf) | ICCV 2017 | [github](https://github.com/liuzhuang13/slimming)
   
+  * [RETHINKING THE SMALLER-NORM-LESSINFORMATIVE ASSUMPTION IN CHANNEL PRUNING OF CONVOLUTION LAYERS](https://arxiv.org/pdf/1802.00124.pdf) | ICLR 2018 | [github](https://github.com/jack-willturner/batchnorm-pruning)
+  
 # Related Repo
 [Awesome Pruning](https://github.com/he-y/Awesome-Pruning#type-of-pruning)
 
